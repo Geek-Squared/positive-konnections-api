@@ -1,6 +1,8 @@
 {
     "rewrites": [
-        {"source": "/(.*)", "destination": "/source"}
-    ]
+      { "source": "/admin/(.*)", "destination": "/admin/index.html" }
+    ],
+    "github": {
+      "silent": true
+    }
   }
-  
